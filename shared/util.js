@@ -21,6 +21,7 @@ export function toNumber (val: string): number | string {
 }
 
 //Nova funcao XYZ
+//Adicionada funcao XYZ2
 /**
  * Make a map and return a function for checking if a key
  * is in that map.
