@@ -20,7 +20,6 @@ export function toNumber (val: string): number | string {
   return isNaN(n) ? val : n
 }
 
-//TEST
 /**
  * Make a map and return a function for checking if a key
  * is in that map.
