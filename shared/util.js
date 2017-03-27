@@ -89,7 +89,14 @@ export const camelize = cached((str: string): string => {
   return str.replace(camelizeRE, (_, c) => c ? c.toUpperCase() : '')
 })
 
+/**
+ * Capitalize a string.
+ */
+export const capitalize = cached((str: string): string => {
+  return str.charAt(0).toUpperCase() + str.slice(1)
+})
 
+/**
  * Hyphenate a camelCase string.
  */
 const hyphenateRE = /([^-])([A-Z])/g
