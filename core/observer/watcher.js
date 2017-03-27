@@ -1,5 +1,7 @@
 /* @flow */
 
+
+// apenas adicionando um comentario para exemplificar a mudanca
 import { queueWatcher } from './scheduler'
 import Dep, { pushTarget, popTarget } from './dep'
 
@@ -13,6 +15,7 @@ import {
 } from '../util/index'
 
 let uid = 0
+
 
 /**
  * A watcher parses an expression, collects dependencies,
